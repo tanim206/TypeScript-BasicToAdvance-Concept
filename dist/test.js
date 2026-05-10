@@ -4,4 +4,6 @@ const course = "next level web development";
 console.log(course);
 let roll = 676602;
 console.log(roll);
+let isAdmin = false;
+let x;
 //# sourceMappingURL=test.js.map

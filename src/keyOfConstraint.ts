@@ -7,12 +7,11 @@ type richMan = {
 type Vehicle1 = "bike" | "car" | "plain";
 type Vehicle2 = keyof richMan; // keyof bujanu hoise ai file a
 
-const man : Vehicle2 = {
-  bike: "pulser",
-  car: "lemborgini",
-  plain: "bangladesh",
-};
-// console.log(man);
+// const aMan : Vehicle2 = {
+//   bike: "pulser",
+//   car: "lemborgini",
+//   plain: "bangladesh",
+// };
 
 type User = {
   id: number;

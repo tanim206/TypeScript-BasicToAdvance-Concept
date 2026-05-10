@@ -18,3 +18,15 @@ biyerAge(28);
 const userTheme = null;
 const defaultTheme = userTheme ?? "light Theme";
 console.log(defaultTheme);
+
+
+// (?.) ---> Optional Chaninig
+
+const user = {
+  name: "Tanim",
+  address: {
+    city: "Sylhet",
+  },
+};
+
+console.log(user.address?.city);

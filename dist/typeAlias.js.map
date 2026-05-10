@@ -1,0 +1,1 @@
+{"version":3,"file":"typeAlias.js","sourceRoot":"","sources":["../src/typeAlias.ts"],"names":[],"mappings":";;AAUA,MAAM,KAAK,GAAS;IAClB,EAAE,EAAE,MAAM;IACV,IAAI,EAAE;QACJ,SAAS,EAAE,OAAO;QAClB,QAAQ,EAAE,QAAQ;KACnB;IACD,KAAK,EAAE,iBAAiB;IACxB,MAAM,EAAE,MAAM;CACf,CAAC;AAEF,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC"}

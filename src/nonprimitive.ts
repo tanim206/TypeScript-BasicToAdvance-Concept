@@ -28,4 +28,4 @@ const user: {
 };
 
 user.organization = " Next Level Web Development";
-console.log(user)
+console.log(user);

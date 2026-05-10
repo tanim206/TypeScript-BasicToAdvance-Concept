@@ -1,0 +1,26 @@
+"use strict";
+// 01. ? ---> Tarnary Operator
+// 02. ?? ---> Nullish Coalesing Operator : null/undifined
+// 03. ?. ---> Optional Chaninig
+Object.defineProperty(exports, "__esModule", { value: true });
+// Used ?
+const biyerAge = (age) => {
+    const result = age >= 21
+        ? "Biya korte parbay"
+        : "Biya korte parbe na , karon tumar age kom ! ";
+    console.log(result);
+};
+biyerAge(28);
+// Used ??    ---- null/undifined/ "value"
+const userTheme = null;
+const defaultTheme = userTheme ?? "light Theme";
+console.log(defaultTheme);
+// (?.) ---> Optional Chaninig
+const user = {
+    name: "Tanim",
+    address: {
+        city: "Sylhet",
+    },
+};
+console.log(user.address?.city);
+//# sourceMappingURL=QuestionMark.js.map
